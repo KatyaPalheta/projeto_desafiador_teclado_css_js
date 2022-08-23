@@ -11,7 +11,6 @@ window.addEventListener('keypress', function (e) {
 	var num = letra.charCodeAt();
 	var key = event.keyCode;
 	key = parseInt(key);
-
 	if (num == key) {
 		document.getElementById(key).style.backgroundColor = 'green';
 		certo++; //soma 1
@@ -44,7 +43,6 @@ function receive() {
 	console.log(textValue);
 	return textValue;
 }
-
 function mudarLetra() {
 	var firstPart = textoDiditacao.substr(0, posicao);
 	var secondPart = textoDiditacao.substr(posicao + 1);
