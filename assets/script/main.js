@@ -9,6 +9,7 @@ mudarLetra();
 window.addEventListener('keypress', function (e) {
 	letra = textoDiditacao.charAt(posicao);
 	var num = letra.charCodeAt();
+	// não sei pq ficou tachado, mas se eu remover da ruim
 	var key = event.keyCode;
 	key = parseInt(key);
 	if (num == key) {

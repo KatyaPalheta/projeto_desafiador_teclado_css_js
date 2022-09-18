@@ -4,6 +4,17 @@ body {
     align-items: center;
     font-family: "Raleway";
 }
+.info{
+    text-align: center;
+    margin: auto;
+}
+.info h1{
+    font-size: 30px;
+
+}
+.info p{
+    font-size: 14px;
+}
 
 #testeDeDigitacao{
     background: linear-gradient(135deg, #FFFFFF 0%, #FFC3C9 51%, #FFF6F8 100%);
